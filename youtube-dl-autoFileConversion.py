@@ -4,7 +4,7 @@ import mutagen
 import subprocess
 from mutagen.easyid3 import EasyID3
 
-path = "/home/random/Music/"
+path = "/home/{YOUR USERNAME HERE}/Music/"
 
 noDownload = False
 if sys.argv[1] == "-n":
