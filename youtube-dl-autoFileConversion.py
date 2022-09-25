@@ -9,8 +9,7 @@ path = "/home/random/Music/"
 noDownload = False
 if sys.argv[1] == "-n":
     noDownload = True
-else:
-    url = sys.argv[1]
+url = sys.argv[1]
 
 artist = input("What Artist? ")
 album = input("What Album? ")
